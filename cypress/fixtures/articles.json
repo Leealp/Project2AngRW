@@ -1,0 +1,39 @@
+{
+    "articles":[
+        {
+            "slug":"Article-2-2000",
+            "title":"Article 2",
+            "description":" A2","body":"Article A2",
+            "createdAt":"2021-10-20T23:20:41.566Z","updatedAt":"2021-10-20T23:29:16.910Z",
+            "tagList":[],
+            "author":{
+                "username":"Leeal",
+                "bio":null,
+                "image":"https://realworld-temp-api.herokuapp.com/images/smiley-cyrus.jpeg"},
+                "comments":[],
+                "favoritesCount":1,
+                "favorited":true
+        },
+        {
+            "slug":"Article-1-2000",
+            "title":"Article 1",
+            "description":"A1",
+            "body":"Article A1",
+            "createdAt":"2021-10-20T23:20:12.927Z",
+            "updatedAt":"2021-10-20T23:20:12.927Z",
+            "tagList":["tag1"],
+            "author":{
+                "username":"Leeal",
+                "bio":null,
+                "image":"https://realworld-temp-api.herokuapp.com/images/smiley-cyrus.jpeg"},
+                "comments":[],
+                "favoritesCount":5,
+                "favorited":false
+        }
+    ],
+    "articlesCount":2
+}
+
+
+
+            
