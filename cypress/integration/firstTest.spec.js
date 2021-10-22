@@ -2,7 +2,7 @@
 
 describe('Test with backend', () =>{
     beforeEach('login to the app', ()=>{
-        cy.intercept('GET','**/tags','fixture:tags.json')
+        cy.intercept('GET','**/tags',{fixture:'tags.json'})
         //cy.route('GET','https://api.realworld.io/api/tags','fixture:tags.json')
         cy.loginToApplication()
     })
