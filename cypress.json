@@ -2,5 +2,10 @@
         "baseUrl": "http://localhost:4200/",
         "ignoreTestfiles": "**/2-advanced-examples/*",
         "viewportHeight": 768,
-        "viewportWidth": 1024
+        "viewportWidth": 1024,
+        "env":{
+                "username": "lyalpha2401@gmail.com",
+                "password": "12345",
+                "apiUrl": "https://api.realworld.io"
+        }    
 }
