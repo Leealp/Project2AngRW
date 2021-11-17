@@ -5,9 +5,9 @@
     "passes": 3,
     "pending": 0,
     "failures": 0,
-    "start": "2021-11-12T21:37:51.204Z",
-    "end": "2021-11-12T21:37:53.175Z",
-    "duration": 1971,
+    "start": "2021-11-15T21:10:39.271Z",
+    "end": "2021-11-15T21:10:41.718Z",
+    "duration": 2447,
     "testsRegistered": 3,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "909e8070-ab5a-4dae-9ea7-ace8d50a0c22",
+      "uuid": "f2b44a3b-810b-4b7c-93e5-2091ac4b6d7a",
       "title": "",
       "fullFile": "cypress/integration/2-advanced-examples/location.spec.js",
       "file": "cypress/integration/2-advanced-examples/location.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "fb07cabb-aab4-4588-9bf6-e0c731bbb68b",
+          "uuid": "decd672a-a2c2-4ea4-9c3c-3068ad8f99fe",
           "title": "Location",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "cy.hash() - get the current URL hash",
               "fullTitle": "Location cy.hash() - get the current URL hash",
               "timedOut": null,
-              "duration": 345,
+              "duration": 396,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "// https://on.cypress.io/hash\ncy.hash().should('be.empty');",
               "err": {},
-              "uuid": "5ec4b66c-5f52-4f16-966b-0e757a09d3f7",
-              "parentUUID": "fb07cabb-aab4-4588-9bf6-e0c731bbb68b",
+              "uuid": "c097fd18-d3f1-43b7-9bf1-5931a0121305",
+              "parentUUID": "decd672a-a2c2-4ea4-9c3c-3068ad8f99fe",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "cy.location() - get window.location",
               "fullTitle": "Location cy.location() - get window.location",
               "timedOut": null,
-              "duration": 132,
+              "duration": 138,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,8 +65,8 @@
               "context": null,
               "code": "// https://on.cypress.io/location\ncy.location().should(location => {\n  expect(location.hash).to.be.empty;\n  expect(location.href).to.eq('https://example.cypress.io/commands/location');\n  expect(location.host).to.eq('example.cypress.io');\n  expect(location.hostname).to.eq('example.cypress.io');\n  expect(location.origin).to.eq('https://example.cypress.io');\n  expect(location.pathname).to.eq('/commands/location');\n  expect(location.port).to.eq('');\n  expect(location.protocol).to.eq('https:');\n  expect(location.search).to.be.empty;\n});",
               "err": {},
-              "uuid": "74766594-7aeb-4453-9071-979db43227ad",
-              "parentUUID": "fb07cabb-aab4-4588-9bf6-e0c731bbb68b",
+              "uuid": "d9d44bea-cba3-4eda-bfc7-97fb69333f47",
+              "parentUUID": "decd672a-a2c2-4ea4-9c3c-3068ad8f99fe",
               "isHook": false,
               "skipped": false
             },
@@ -74,7 +74,7 @@
               "title": "cy.url() - get the current URL",
               "fullTitle": "Location cy.url() - get the current URL",
               "timedOut": null,
-              "duration": 124,
+              "duration": 114,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -83,22 +83,22 @@
               "context": null,
               "code": "// https://on.cypress.io/url\ncy.url().should('eq', 'https://example.cypress.io/commands/location');",
               "err": {},
-              "uuid": "912306d2-1364-403c-a23a-53d1134a2797",
-              "parentUUID": "fb07cabb-aab4-4588-9bf6-e0c731bbb68b",
+              "uuid": "24df9357-e603-4bea-8cb4-3099167a100d",
+              "parentUUID": "decd672a-a2c2-4ea4-9c3c-3068ad8f99fe",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "5ec4b66c-5f52-4f16-966b-0e757a09d3f7",
-            "74766594-7aeb-4453-9071-979db43227ad",
-            "912306d2-1364-403c-a23a-53d1134a2797"
+            "c097fd18-d3f1-43b7-9bf1-5931a0121305",
+            "d9d44bea-cba3-4eda-bfc7-97fb69333f47",
+            "24df9357-e603-4bea-8cb4-3099167a100d"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 601,
+          "duration": 648,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

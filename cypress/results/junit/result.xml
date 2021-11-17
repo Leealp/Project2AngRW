@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<testsuites>
+<testsuite name="Root Suite" timestamp="2021-11-15T21:09:43" tests="0" file="cypress/integration/2-advanced-examples/actions.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="Actions" timestamp="2021-11-15T21:09:43" tests="14" time="18.0430" failures="0">
+  
+  <testcase name="Actions .type() - type into a DOM element" time="4.3960" classname=".type() - type into a DOM element"></testcase>
+  
+  <testcase name="Actions .focus() - focus on a DOM element" time="0.2660" classname=".focus() - focus on a DOM element"></testcase>
+  
+  <testcase name="Actions .blur() - blur off a DOM element" time="0.5150" classname=".blur() - blur off a DOM element"></testcase>
+  
+  <testcase name="Actions .clear() - clears an input or textarea element" time="0.9900" classname=".clear() - clears an input or textarea element"></testcase>
+  
+  <testcase name="Actions .submit() - submit a form" time="0.6140" classname=".submit() - submit a form"></testcase>
+  
+  <testcase name="Actions .click() - click on a DOM element" time="2.7700" classname=".click() - click on a DOM element"></testcase>
+  
+  <testcase name="Actions .dblclick() - double click on a DOM element" time="0.3020" classname=".dblclick() - double click on a DOM element"></testcase>
+  
+  <testcase name="Actions .rightclick() - right click on a DOM element" time="0.3080" classname=".rightclick() - right click on a DOM element"></testcase>
+  
+  <testcase name="Actions .check() - check a checkbox or radio element" time="1.1970" classname=".check() - check a checkbox or radio element"></testcase>
+  
+  <testcase name="Actions .uncheck() - uncheck a checkbox element" time="1.3500" classname=".uncheck() - uncheck a checkbox element"></testcase>
+  
+  <testcase name="Actions .select() - select an option in a &lt;select&gt; element" time="1.1820" classname=".select() - select an option in a &lt;select&gt; element"></testcase>
+  
+  <testcase name="Actions .scrollIntoView() - scroll an element into view" time="0.2420" classname=".scrollIntoView() - scroll an element into view"></testcase>
+  
+  <testcase name="Actions .trigger() - trigger an event on a DOM element" time="0.2140" classname=".trigger() - trigger an event on a DOM element"></testcase>
+  
+  <testcase name="Actions cy.scrollTo() - scroll the window or element to a position" time="2.1940" classname="cy.scrollTo() - scroll the window or element to a position"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2021-11-15T21:10:03" tests="0" file="cypress/integration/2-advanced-examples/aliasing.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="Aliasing" timestamp="2021-11-15T21:10:03" tests="2" time="3.8910" failures="0">
+  
+  <testcase name="Aliasing .as() - alias a DOM element for later use" time="0.5810" classname=".as() - alias a DOM element for later use"></testcase>
+  
+  <testcase name="Aliasing .as() - alias a route for later use" time="1.5830" classname=".as() - alias a route for later use"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2021-11-15T21:09:36" tests="0" file="cypress/integration/1-getting-started/todo.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="example to-do app" timestamp="2021-11-15T21:09:36" tests="3" time="0.0000" failures="0">
+  
+  <testcase name="example to-do app displays two todo items by default" time="1.0480" classname="displays two todo items by default"></testcase>
+  
+  <testcase name="example to-do app can add new todo items" time="0.5570" classname="can add new todo items"></testcase>
+  
+  <testcase name="example to-do app can check off an item as completed" time="0.3080" classname="can check off an item as completed"></testcase>
+  
+</testsuite>
+<testsuite name="with a checked task" timestamp="2021-11-15T21:09:39" tests="3" time="1.3630" failures="0">
+  
+  <testcase name="example to-do app with a checked task can filter for uncompleted tasks" time="0.6780" classname="can filter for uncompleted tasks"></testcase>
+  
+  <testcase name="example to-do app with a checked task can filter for completed tasks" time="0.3350" classname="can filter for completed tasks"></testcase>
+  
+  <testcase name="example to-do app with a checked task can delete all completed tasks" time="0.3220" classname="can delete all completed tasks"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2021-11-15T21:10:16" tests="0" file="cypress/integration/2-advanced-examples/connectors.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="Connectors" timestamp="2021-11-15T21:10:16" tests="4" time="0.0000" failures="0">
+  
+  <testcase name="Connectors .each() - iterate over an array of elements" time="0.5120" classname=".each() - iterate over an array of elements"></testcase>
+  
+  <testcase name="Connectors .its() - get properties on the current subject" time="0.1720" classname=".its() - get properties on the current subject"></testcase>
+  
+  <testcase name="Connectors .invoke() - invoke a function on the current subject" time="0.1410" classname=".invoke() - invoke a function on the current subject"></testcase>
+  
+  <testcase name="Connectors .spread() - spread an array as individual args to callback function" time="0.1490" classname=".spread() - spread an array as individual args to callback function"></testcase>
+  
+</testsuite>
+<testsuite name=".then()" timestamp="2021-11-15T21:10:18" tests="4" time="0.6280" failures="0">
+  
+  <testcase name="Connectors .then() invokes a callback function with the current subject" time="0.1650" classname="invokes a callback function with the current subject"></testcase>
+  
+  <testcase name="Connectors .then() yields the returned value to the next command" time="0.1740" classname="yields the returned value to the next command"></testcase>
+  
+  <testcase name="Connectors .then() yields the original subject without return" time="0.1280" classname="yields the original subject without return"></testcase>
+  
+  <testcase name="Connectors .then() yields the value yielded by the last Cypress command inside" time="0.1320" classname="yields the value yielded by the last Cypress command inside"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2021-11-15T21:10:08" tests="0" file="cypress/integration/2-advanced-examples/assertions.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="Assertions" timestamp="2021-11-15T21:10:08" tests="0" time="0.0000" failures="0"></testsuite>
+<testsuite name="Implicit Assertions" timestamp="2021-11-15T21:10:08" tests="2" time="2.6820" failures="0">
+  
+  <testcase name="Assertions Implicit Assertions .should() - make an assertion about the current subject" time="1.2600" classname=".should() - make an assertion about the current subject"></testcase>
+  
+  <testcase name="Assertions Implicit Assertions .and() - chain multiple assertions together" time="0.1660" classname=".and() - chain multiple assertions together"></testcase>
+  
+</testsuite>
+<testsuite name="Explicit Assertions" timestamp="2021-11-15T21:10:11" tests="7" time="3.2050" failures="0">
+  
+  <testcase name="Assertions Explicit Assertions expect - make an assertion about a specified subject" time="0.2370" classname="expect - make an assertion about a specified subject"></testcase>
+  
+  <testcase name="Assertions Explicit Assertions pass your own callback function to should()" time="0.2740" classname="pass your own callback function to should()"></testcase>
+  
+  <testcase name="Assertions Explicit Assertions finds element by class name regex" time="0.1630" classname="finds element by class name regex"></testcase>
+  
+  <testcase name="Assertions Explicit Assertions can throw any error" time="0.3100" classname="can throw any error"></testcase>
+  
+  <testcase name="Assertions Explicit Assertions matches unknown text between two elements" time="0.1600" classname="matches unknown text between two elements"></testcase>
+  
+  <testcase name="Assertions Explicit Assertions assert - assert shape of an object" time="0.2910" classname="assert - assert shape of an object"></testcase>
+  
+  <testcase name="Assertions Explicit Assertions retries the should callback until assertions pass" time="1.7210" classname="retries the should callback until assertions pass"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2021-11-15T21:10:25" tests="0" file="cypress/integration/2-advanced-examples/cypress_api.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="Cypress.Commands" timestamp="2021-11-15T21:10:25" tests="1" time="1.5270" failures="0">
+  
+  <testcase name="Cypress.Commands .add() - create a custom command" time="0.4070" classname=".add() - create a custom command"></testcase>
+  
+</testsuite>
+<testsuite name="Cypress.Cookies" timestamp="2021-11-15T21:10:27" tests="3" time="0.4750" failures="0">
+  
+  <testcase name="Cypress.Cookies .debug() - enable or disable debugging" time="0.1660" classname=".debug() - enable or disable debugging"></testcase>
+  
+  <testcase name="Cypress.Cookies .preserveOnce() - preserve cookies by key" time="0.1590" classname=".preserveOnce() - preserve cookies by key"></testcase>
+  
+  <testcase name="Cypress.Cookies .defaults() - set defaults for all cookies" time="0.1190" classname=".defaults() - set defaults for all cookies"></testcase>
+  
+</testsuite>
+<testsuite name="Cypress.arch" timestamp="2021-11-15T21:10:27" tests="1" time="0.1480" failures="0">
+  
+  <testcase name="Cypress.arch Get CPU architecture name of underlying OS" time="0.1430" classname="Get CPU architecture name of underlying OS"></testcase>
+  
+</testsuite>
+<testsuite name="Cypress.config()" timestamp="2021-11-15T21:10:27" tests="1" time="0.5020" failures="1">
+  
+  <testcase name="Cypress.config() Get and set configuration options" time="0.0000" classname="Get and set configuration options">
+    
+    <failure message="expected { Object (baseUrl, ignoreTestfiles, ...) } to have property &apos;baseUrl&apos; of null, but got &apos;http://localhost:4200/&apos;" type="AssertionError"><![CDATA[AssertionError: expected { Object (baseUrl, ignoreTestfiles, ...) } to have property 'baseUrl' of null, but got 'http://localhost:4200/'
+    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress\integration\2-advanced-examples\cypress_api.spec.js:174:30)]]></failure>
+    
+  </testcase>
+  
+</testsuite>
+<testsuite name="Cypress.dom" timestamp="2021-11-15T21:10:28" tests="1" time="0.1740" failures="0">
+  
+  <testcase name="Cypress.dom .isHidden() - determine if a DOM element is hidden" time="0.1650" classname=".isHidden() - determine if a DOM element is hidden"></testcase>
+  
+</testsuite>
+<testsuite name="Cypress.env()" timestamp="2021-11-15T21:10:28" tests="1" time="0.1910" failures="0">
+  
+  <testcase name="Cypress.env() Get environment variables" time="0.1800" classname="Get environment variables"></testcase>
+  
+</testsuite>
+<testsuite name="Cypress.log" timestamp="2021-11-15T21:10:28" tests="1" time="0.1650" failures="0">
+  
+  <testcase name="Cypress.log Control what is printed to the Command Log" time="0.1500" classname="Control what is printed to the Command Log"></testcase>
+  
+</testsuite>
+<testsuite name="Cypress.platform" timestamp="2021-11-15T21:10:28" tests="1" time="0.1530" failures="0">
+  
+  <testcase name="Cypress.platform Get underlying OS name" time="0.1450" classname="Get underlying OS name"></testcase>
+  
+</testsuite>
+<testsuite name="Cypress.version" timestamp="2021-11-15T21:10:29" tests="1" time="0.1560" failures="0">
+  
+  <testcase name="Cypress.version Get current version of Cypress being run" time="0.1270" classname="Get current version of Cypress being run"></testcase>
+  
+</testsuite>
+<testsuite name="Cypress.spec" timestamp="2021-11-15T21:10:29" tests="1" time="0.2680" failures="0">
+  
+  <testcase name="Cypress.spec Get current spec information" time="0.2650" classname="Get current spec information"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2021-11-15T21:10:39" tests="0" file="cypress/integration/2-advanced-examples/location.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="Location" timestamp="2021-11-15T21:10:39" tests="3" time="2.4330" failures="0">
+  
+  <testcase name="Location cy.hash() - get the current URL hash" time="0.3960" classname="cy.hash() - get the current URL hash"></testcase>
+  
+  <testcase name="Location cy.location() - get window.location" time="0.1380" classname="cy.location() - get window.location"></testcase>
+  
+  <testcase name="Location cy.url() - get the current URL" time="0.1140" classname="cy.url() - get the current URL"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2021-11-15T21:10:35" tests="0" file="cypress/integration/2-advanced-examples/local_storage.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="Local Storage" timestamp="2021-11-15T21:10:35" tests="1" time="1.9810" failures="0">
+  
+  <testcase name="Local Storage cy.clearLocalStorage() - clear all data in local storage" time="0.8310" classname="cy.clearLocalStorage() - clear all data in local storage"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2021-11-15T21:10:21" tests="0" file="cypress/integration/2-advanced-examples/cookies.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="Cookies" timestamp="2021-11-15T21:10:21" tests="5" time="3.3130" failures="0">
+  
+  <testcase name="Cookies cy.getCookie() - get a browser cookie" time="0.5410" classname="cy.getCookie() - get a browser cookie"></testcase>
+  
+  <testcase name="Cookies cy.getCookies() - get browser cookies" time="0.3150" classname="cy.getCookies() - get browser cookies"></testcase>
+  
+  <testcase name="Cookies cy.setCookie() - set a browser cookie" time="0.2040" classname="cy.setCookie() - set a browser cookie"></testcase>
+  
+  <testcase name="Cookies cy.clearCookie() - clear a browser cookie" time="0.2550" classname="cy.clearCookie() - clear a browser cookie"></testcase>
+  
+  <testcase name="Cookies cy.clearCookies() - clear browser cookies" time="0.2490" classname="cy.clearCookies() - clear browser cookies"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2021-11-15T21:10:31" tests="0" file="cypress/integration/2-advanced-examples/files.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="Files" timestamp="2021-11-15T21:10:31" tests="4" time="3.3380" failures="0">
+  
+  <testcase name="Files cy.fixture() - load a fixture" time="0.9110" classname="cy.fixture() - load a fixture"></testcase>
+  
+  <testcase name="Files cy.fixture() or require - load a fixture" time="0.1550" classname="cy.fixture() or require - load a fixture"></testcase>
+  
+  <testcase name="Files cy.readFile() - read file contents" time="0.1700" classname="cy.readFile() - read file contents"></testcase>
+  
+  <testcase name="Files cy.writeFile() - write to a file" time="0.3890" classname="cy.writeFile() - write to a file"></testcase>
+  
+</testsuite>
+
+</testsuites>

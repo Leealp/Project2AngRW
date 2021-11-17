@@ -13,9 +13,11 @@
     "prereport": "npm run delete:reports",
     "mochawesome:merge": "npx mochawesome-merge \"cypress/results/mochawesome/*.json\" > mochawesome.json && npx marge mochawesome.json",
     "junit:merge": "npx junit-merge -d cypress/results/junit -o cypress/results/junit/result.xml",
-    "cypress:run": "npm run prereport && npx cypress run",
+    "cypress:run": "npm run prereport && npx cypress run || exit 0",
     "cypress:run_Qa": "npx cypress open –env configFile=Qa",
-    "cypress:e2e": "start-test start http-get://localhost:4200 cypress:run && npm run junit:merge && npm run mochawesome:merge"
+    "cypress:e2e": "start-test start http-get://localhost:4200 cypress:run && npm run junit:merge && npm run mochawesome:merge",
+    "cy:run_first": "npx cypress run --spec 'cypress/integration/secondTest.spec.js'",
+    "cy:run_browser": "npm run cy:run_first -- --browser chrome"
   },
   "pre-commit": [
     "lint"
@@ -45,7 +47,7 @@
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.1",
-    "cypress": "^8.7.0",
+    "cypress": "^9.0.0",
     "cypress-multi-reporters": "^1.5.0",
     "fs-extra": "^10.0.0",
     "jasmine-core": "~3.6.0",
